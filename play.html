@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="play.css" rel="stylesheet" type="text/css" />
+  <title>♥PlayList GG Kpop♥</title>
+</head>
+
+<body>
+  <div class="player">
+    <div class="player__header">
+      <div class="player__img player__img--absolute slider">
+        <button class="player__button player__button--absolute--nw playlist">
+          <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon">
+        </button>
+        <button class="player__button player__button--absolute--center play">
+          <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon">
+          <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon">
+        </button>
+        <div class="slider__content">
+          <img class="img slider__img" src="https://t2.genius.com/unsafe/1000x1000/https%3A%2F%2Fimages.genius.com%2Fd383c213dfdcede4fd45fa7c1570463e.1000x1000x1.jpg" alt="cover">
+          <img class="img slider__img" src="https://t2.genius.com/unsafe/1000x1000/https%3A%2F%2Fimages.genius.com%2F8361351422152e5d579d2ee0e90f5db9.1000x1000x1.png" alt="cover">
+          <img class="img slider__img" src="https://t2.genius.com/unsafe/1000x1000/https%3A%2F%2Fimages.genius.com%2F89903024a7140f25dcbd94338eb6a583.1000x1000x1.png" alt="cover">
+          <img class="img slider__img" src="https://t2.genius.com/unsafe/1000x1000/https%3A%2F%2Fimages.genius.com%2F99f4fa875f4b14b248b80f7d6f5bdebb.1000x1000x1.png" alt="cover">
+          <img class="img slider__img" src="https://t2.genius.com/unsafe/1000x1000/https%3A%2F%2Fimages.genius.com%2F565257f1b5b3c76bb47a0d35aa4f3f1c.999x999x1.jpg" alt="cover">
+          <img class="img slider__img" src="https://t2.genius.com/unsafe/1000x1000/https%3A%2F%2Fimages.genius.com%2F7a3c1313c06f8c92882c405198843344.1000x1000x1.jpg" alt="cover">
+          <img class="img slider__img" src="https://t2.genius.com/unsafe/1000x1000/https%3A%2F%2Fimages.genius.com%2F12c7720019d7848161f7d1cffab914c9.1000x1000x1.png" alt="cover">
+        </div>
+      </div>
+      <div class="player__controls">
+        <button class="player__button back">
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon">
+        </button>
+        <p class="player__context slider__context">
+          <strong class="slider__name"></strong>
+          <span class="player__title slider__title"></span>
+        </p>
+        <button class="player__button next">
+          <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon">
+        </button>
+        <div class="progres">
+          <div class="progres__filled"></div>
+        </div>
+      </div>
+    </div>
+    <ul class="player__playlist list">
+      <li class="player__song">
+        <img class="player__img img" src="https://t2.genius.com/unsafe/1000x1000/https%3A%2F%2Fimages.genius.com%2Fd383c213dfdcede4fd45fa7c1570463e.1000x1000x1.jpg" alt="cover">
+        <p class="player__context">
+          <b class="player__song-name">Cupid</b>
+          <span class="flex">
+            <span class="player__title">FIFTY FIFTY 피프티피프티</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audio/FIFTY FIFTY 피프티피프티 Cupid.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="https://t2.genius.com/unsafe/1000x1000/https%3A%2F%2Fimages.genius.com%2F8361351422152e5d579d2ee0e90f5db9.1000x1000x1.png" alt="cover">
+        <p class="player__context">
+          <b class="player__song-name">DM</b>
+          <span class="flex">
+            <span class="player__title">Fromis_9 프로미스나인</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audio/fromis9 DM.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="https://t2.genius.com/unsafe/1000x1000/https%3A%2F%2Fimages.genius.com%2F89903024a7140f25dcbd94338eb6a583.1000x1000x1.png" alt="cover">
+        <p class="player__context">
+          <b class="player__song-name">Feel My Rhythm</b>
+          <span class="flex">
+            <span class="player__title">Red Velvet 레드벨벳</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audio/Feel My Rhythm.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="https://t2.genius.com/unsafe/1000x1000/https%3A%2F%2Fimages.genius.com%2F99f4fa875f4b14b248b80f7d6f5bdebb.1000x1000x1.png" alt="cover">
+        <p class="player__context">
+          <b class="player__song-name">Satellite</b>
+          <span class="flex">
+            <span class="player__title">LOONA 이달의 소녀</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audio/위성 Satellite.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="https://t2.genius.com/unsafe/1000x1000/https%3A%2F%2Fimages.genius.com%2F565257f1b5b3c76bb47a0d35aa4f3f1c.999x999x1.jpg" alt="cover">
+        <p class="player__context ">
+          <b class="player__song-name">Chaotic</b>
+          <span class="flex">
+            <span class="player__title">LOONA / ODD EYE CIRCLE</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audio/Chaotic.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="https://t2.genius.com/unsafe/252x252/https%3A%2F%2Fimages.genius.com%2F7a3c1313c06f8c92882c405198843344.1000x1000x1.jpg" alt="cover">
+        <p class="player__context"> 
+          <b class="player__song-name">WE GO</b>
+          <span class="flex">
+            <span class="player__title">Fromis_9 프로미스나인</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audio/fromis9 WE GO.mp3"></audio>
+      </li>
+      <li class="player__song">
+        <img class="player__img img" src="https://t2.genius.com/unsafe/1000x1000/https%3A%2F%2Fimages.genius.com%2F12c7720019d7848161f7d1cffab914c9.1000x1000x1.png" alt="cover">
+        <p class="player__context ">
+          <b class="player__song-name">Dreams Come True</b>
+          <span class="flex">
+            <span class="player__title">​aespa (에스파)</span>
+            <span class="player__song-time"></span>
+          </span>
+        </p>
+        <audio class="audio" src="audio/AESPA - Dreams Come True.mp3"></audio>
+      </li>
+    </ul>
+  </div>
+  <script src="/play.js"></script>
+</body>
+
+</html>
